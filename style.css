@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.item_1 {
+    border-bottom: 1px solid gray;
+    padding: 70px;
+    flex-grow: 1;
+}
+
+h1 {
+    border-bottom: 1px solid gray;
+    padding: 25px;
+    padding-bottom: 50px
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(109, 102, 121);
+}
